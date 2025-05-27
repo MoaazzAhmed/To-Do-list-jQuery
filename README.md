@@ -1,1 +1,1 @@
-# To-Do-list-jQuery
+Make sure to download the nodemudules (npm i)
