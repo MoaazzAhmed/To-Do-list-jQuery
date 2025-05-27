@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo-container container w-50 mx-auto mt-5">
+        <h1 class="text-center fw-bold w-100 p-3 m-0">
+            To-Do List
+        </h1>
+
+        <div class="todo-body w-100 p-3">
+            <div class="todo-task py-2 border-bottom border-dark border-2">
+                <p class="task fs-5 fw-bold m-0">Example task</p>
+            </div>
+
+            <button class="show btn btn-success mt-5 fw-bold fs-5">+</button>
+
+            <div class="adding-section mt-3">
+                <div class="d-flex align-items-center">
+                    <input type="text" placeholder="Enter the task" class="newtask form-control">
+                <button class= "add btn btn-success ms-2">add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
